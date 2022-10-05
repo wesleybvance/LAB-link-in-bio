@@ -1,3 +1,39 @@
 body {
-  background-color: powderblue;
+  background-color: #545454;
+}
+
+.heading {
+  text-align: center;
+  color: white;
+}
+
+.profpic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 100px 10px 100px;
+}
+
+img {
+  width: 100px;
+}
+
+.btn.btn-primary {
+  background-color: black;
+  border: 1px solid white;
+  margin: 5px 0px 5px 0px;
+}
+
+.btn.btn-primary:hover {
+  background-color: palevioletred;
+}
+
+.btn.btn-primary:active {
+  background-color: white;
+  border: 1px solid black;
+  color: #545454;
+}
+
+.links {
+  padding: 30px 0px 0px 0px;
 }

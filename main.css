@@ -2,11 +2,18 @@ body {
   background-color: #545454;
 }
 
+.heading {
+  /* display: flex; */
+  text-align: center;
+  /* justify-content: center; */
+  color: white;
+}
+
 .profpic {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 100px;
+  padding: 100px 100px 10px 100px;
 }
 
 img {

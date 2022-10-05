@@ -3,9 +3,7 @@ body {
 }
 
 .heading {
-  /* display: flex; */
   text-align: center;
-  /* justify-content: center; */
   color: white;
 }
 
@@ -18,4 +16,19 @@ body {
 
 img {
   width: 100px;
+}
+
+.btn.btn-primary {
+  background-color: black;
+  border: 1px solid white;
+}
+
+.btn.btn-primary:hover {
+  background-color: palevioletred;
+}
+
+.btn.btn-primary:active {
+  background-color: white;
+  border: 1px solid black;
+  color: #545454;
 }

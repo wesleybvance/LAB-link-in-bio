@@ -21,6 +21,7 @@ img {
 .btn.btn-primary {
   background-color: black;
   border: 1px solid white;
+  margin: 5px 0px 5px 0px;
 }
 
 .btn.btn-primary:hover {
@@ -31,4 +32,8 @@ img {
   background-color: white;
   border: 1px solid black;
   color: #545454;
+}
+
+.links {
+  padding: 30px 0px 0px 0px;
 }
